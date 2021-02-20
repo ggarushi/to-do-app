@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+     box-sizing: border-box;
+     background-color: lightpink;
+  }
+  .inner
+{
+     padding: 30px;
+     text-align: center;
+     background: linen;
+     box-shadow: 5px 3px 5px;
+     text-transform: uppercase;
+}
+.outer
+{
+    padding: 30px;
+    background-color: mintcream;
+   margin:0 auto;
+   max-width: 600px;
+   text-align: center;
+   height: 30rem;
+   box-shadow: 5px 5px 5px 3px;
+}
+#work
+{
+    width:55%;
+    height:30px;
+    border-radius:6px;
+    outline:none;
+}
+.enter
+{
+    width:10%;
+    height:35px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.enter:hover
+{
+    width:13%;
+}
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: rgb(226, 245, 119);
+    font-size: 18px;
+}
+ul li:nth-child(odd) {
+    background: #249e49;
+  }
+  .don
+{
+ float:right;
+    text-align:center;
+    width:100px;
+    height:30px;
+    border:none;
+
+}
+.close
+{
+ float:right;
+    text-align:center;
+    width:100px;
+    height:30px;
+    border:none;
+
+}
